@@ -1,0 +1,47 @@
+@import './slider.css';
+@import './player-control.css';
+@import './player-playback.css';
+@import './player-volumen.css';
+@import './player.css';
+@import './now-playing.css';
+
+.player{
+  display: flex;
+  gap: 1.5rem;
+  padding: 1rem;
+  /* margin-block-start: 5rem; */
+  /* border-top: 1px solid red; */
+  box-shadow: inset 0 1px 0 var(--gray30);
+}
+
+.player >*{
+  flex: 1;
+}
+
+.player-control{
+  border: none;
+  padding: 0;
+  background: none;
+  color: var(--gray10);
+  /* border: 1px solid blue; */
+  font-size: 1rem;
+  padding: .5rem;
+}
+
+.player-control:active{
+  color: var(--gray20);
+}
+
+.player-playerVolumen{
+  /* border: 1px solid red; */
+  display: flex;
+  justify-content: center;
+}
+
+/* .player-playerControls{
+  border: 1px solid blue;
+} */
+
+/* .player-nowPlaying{
+  border: 1px solid green;
+} */

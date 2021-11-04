@@ -2,6 +2,23 @@
 <html lang="es">
 
 <head>
+
+  <meta property="og:title" content="Proyecto Spotifu" />
+  <meta property="og:type" content="website" />
+  <meta property="og:description"
+    content="Proyecto Spotifu, realizado en el curso de flexbox con componentes en https://leonidasesteban.com/" />
+  <meta property="og:url" content="https://hervikm.github.io/Proyecto-spotifu/" />
+  <meta property="og:image" content="https://hervikm.github.io/Proyecto-spotifu/images/1-Inicio-Spotify.jpg" />
+  <!-- Favicon -->
+  <link rel="shortcut icon" href="images/favicon.5cb2bd30.ico" type="image/x-icon">
+  <link rel="apple-touch-icon" sizes="180x180" href="images/favicon.5cb2bd30.ico">
+  <link rel="icon" type="image/png" sizes="32x32" href="images/favicon.5cb2bd30.ico">
+  <link rel="icon" type="image/png" sizes="16x16" href="images/favicon.5cb2bd30.ico">
+  <link rel="mask-icon" href="images/favicon.5cb2bd30.ico" color="#5bbad5">
+  <meta name="msapplication-TileColor" content="#2b5797">
+  <meta name="theme-color" content="#ffffff">
+
+
   <link rel="stylesheet" href="css/index.css">
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -11,6 +28,172 @@
 
 <body class="body">
 
+  <!-- BUSQUEDA -->
+  <form class="search" method="POST" action="#" role="search" aria-label="Busqueda de canciones, artistas o podcast">
+    <i  class="icon-search" aria-hidden="true"></i>
+    <input  class="search-input" type="search" placeholder="Buscar por Artistas, canciones o podcast"  id="">
+  </form>
+
+  <!-- REGION 1 -->
+  <section class="playlistList" aria-labelledby="region1">
+    <div class="playlistList-top">
+      <h2 class="playlistList-title" id="region1">Buenas noches</h2>
+    </div>
+    <div class="playlistList-container">
+      <!-- 1 -->
+      <div class="playlistB">
+        <div class="playlistB-cover">
+          <img src="images/gym.jpg" width="76" height="76" alt="cover de playlist">
+        </div>
+        <div class="playlistB-details">
+          <h3 class="playlistB-title">Gym</h3>
+          <div class="playlistB-control">
+            <button class="buttonIcon is-primary" aria-label="Reproducir la lista">
+              <i class="icon-play" aria-hidden="true"></i>
+            </button>
+          </div>
+        </div>
+      </div>
+      <!-- 2 -->
+
+      <!--  -->
+    </div>
+  </section>
+
+  <!-- REGION 2 -->
+  <section class="playlistList" aria-labelledby="region2">
+    <div class="playlistList-top">
+      <h2 class="playlistList-title" id="region2">Escuchado recientemente</h2>
+    </div>
+    <div class="playlistList-container">
+      <!-- 1 -->
+      <div class="playlistA">
+        <div class="playlistA-cover">
+          <img src="images/metallica.jpg" width="150" height="150" alt="portada de album">
+          <button class="buttonIcon is-primary" aria-label="Reproducir" title="Reproducir">
+            <i class="icon-play" aria-hidden="true"></i>
+          </button>
+        </div>
+        <h3 class="playlist-title">The Unforgiven</h3>
+        <h4 class="playlist-description">Metallica</h4>
+      </div>
+      <!--  -->
+      <!-- 2 -->
+      <div class="playlistA">
+        <div class="playlistA-cover">
+          <img src="images/Stepbystep.jpg" width="150" height="150" alt="portada de album">
+          <button class="buttonIcon is-primary" aria-label="Reproducir" title="Reproducir">
+            <i class="icon-play" aria-hidden="true"></i>
+          </button>
+        </div>
+        <h3 class="playlist-title">Step By Step</h3>
+        <h4 class="playlist-description">New Kids On The Block</h4>
+      </div>
+      <!--  -->
+      <!-- 3 -->
+      <div class="playlistA">
+        <div class="playlistA-cover">
+          <img src="images/fresh.jpg" width="150" height="150" alt="portada de album">
+          <button class="buttonIcon is-primary" aria-label="Reproducir" title="Reproducir">
+            <i class="icon-play" aria-hidden="true"></i>
+          </button>
+        </div>
+        <h3 class="playlist-title">Fresh</h3>
+        <h4 class="playlist-description">Kool & The Gang</h4>
+      </div>
+      <!--  -->
+      <!-- 4 -->
+      <div class="playlistA">
+        <div class="playlistA-cover">
+          <img src="images/september.jpg" width="150" height="150" alt="portada de album">
+          <button class="buttonIcon is-primary" aria-label="Reproducir" title="Reproducir">
+            <i class="icon-play" aria-hidden="true"></i>
+          </button>
+        </div>
+        <h3 class="playlist-title">September</h3>
+        <h4 class="playlist-description">Earth, Wind & Fire</h4>
+      </div>
+      <!--  -->
+      <!-- 5 -->
+      <div class="playlistA">
+        <div class="playlistA-cover">
+          <img src="images/thewisper.jpg" width="150" height="150" alt="portada de album">
+          <button class="buttonIcon is-primary" aria-label="Reproducir" title="Reproducir">
+            <i class="icon-play" aria-hidden="true"></i>
+          </button>
+        </div>
+        <h3 class="playlist-title">And The Beat Goes On</h3>
+        <h4 class="playlist-description">The Whispers</h4>
+      </div>
+      <!--  -->
+      <!-- 6 -->
+      <div class="playlistA">
+        <div class="playlistA-cover">
+          <img src="images/onthebeat.jpg" width="150" height="150" alt="portada de album">
+          <button class="buttonIcon is-primary" aria-label="Reproducir" title="Reproducir">
+            <i class="icon-play" aria-hidden="true"></i>
+          </button>
+        </div>
+        <h3 class="playlist-title">On The Beat - Extended Version</h3>
+        <h4 class="playlist-description">The B.B. & Q. Band</h4>
+      </div>
+      <!--  -->
+      <!-- 7 -->
+      <div class="playlistA">
+        <div class="playlistA-cover">
+          <img src="images/europe.jpg" width="150" height="150" alt="portada de album">
+          <button class="buttonIcon is-primary" aria-label="Reproducir" title="Reproducir">
+            <i class="icon-play" aria-hidden="true"></i>
+          </button>
+        </div>
+        <h3 class="playlist-title">Rock The Night</h3>
+        <h4 class="playlist-description">Europe</h4>
+      </div>
+      <!--  -->
+      <!-- 8 -->
+      <div class="playlistA">
+        <div class="playlistA-cover">
+          <img src="images/europe2.jpg" width="150" height="150" alt="portada de album">
+          <button class="buttonIcon is-primary" aria-label="Reproducir" title="Reproducir">
+            <i class="icon-play" aria-hidden="true"></i>
+          </button>
+        </div>
+        <h3 class="playlist-title">Open Your Heart</h3>
+        <h4 class="playlist-description">Europe</h4>
+      </div>
+      <!--  -->
+      <!-- 9 -->
+      <div class="playlistA">
+        <div class="playlistA-cover">
+          <img src="images/billyocean.jpg" width="150" height="150" alt="portada de album">
+          <button class="buttonIcon is-primary" aria-label="Reproducir" title="Reproducir">
+            <i class="icon-play" aria-hidden="true"></i>
+          </button>
+        </div>
+        <h3 class="playlist-title">Caribbean Queen (No More Love on the Run)</h3>
+        <h4 class="playlist-description">Billy Ocean</h4>
+      </div>
+      <!--  -->
+      <!-- 10 -->
+      <div class="playlistA">
+        <div class="playlistA-cover">
+          <img src="images/sexual-healing.jpg" width="150" height="150" alt="portada de album">
+          <button class="buttonIcon is-primary" aria-label="Reproducir" title="Reproducir">
+            <i class="icon-play" aria-hidden="true"></i>
+          </button>
+        </div>
+        <h3 class="playlist-title">Sexual Healing</h3>
+        <h4 class="playlist-description">Marvin Gaye</h4>
+      </div>
+      <!--  -->
+
+    </div>
+
+    </div>
+  </section>
+
+
+  <!-- Barra lateral -->
   <div class="sidebar">
 
     <!-- Logo -->
@@ -114,40 +297,91 @@
       </ul>
     </nav>
 
+    <nav class="list" aria-labelledby="library-navigation">
+      <h2 class="list-title" id="library-navigation">Tu biblioteca</h2>
+      <ul class="list-content">
+        <li class="list-item">
+          <a class="link" href="#">Creada para ti</a>
+        </li>
+        <li class="list-item">
+          <a class="link" href="#">Escuchado recientemente</a>
+        </li>
+        <li class="list-item">
+          <a class="link" href="#">Tus Me Gusta</a>
+        </li>
+      </ul>
+    </nav>
   </div>
 
+  <!-- Reproductor musical -->
+  <div class="player">
+    <div class="player-nowPlaying">
+      <!-- Fotografia cancion -->
+      <div class="nowPlaying">
+        <div class="nowPlaying-cover">
+          <img src="images/portada.jpg" width="56" height="56" alt="portada la bamba">
+        </div>
+        <div class="nowPlaying-details">
+          <div class="nowPlaying-description">
+            <a href="#song" class="nowPlaying-title">La Bamba</a>
+            <a href="#artist" class="nowPlaying-artist">Los Lobos</a>
+          </div>
+          <div class="nowPlaying-actions">
+            <button class="player-control" role="switch" aria-label="cancion favorita" title="Favoritos">
+              <i class="icon-heart" aria-hidden="true"></i>
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
 
+    <div class="player-playerControls">
+      <!-- Controles de reproduccion -->
+      <div class="playerControls">
+        <!-- botones -->
+        <div class="playerControls-buttons" aria-label="Controles de reproduccion">
+          <button class="buttonIcon " aria-label="Anterior" title="Anterior">
+            <i class="icon-prev" aria-hidden="true"></i>
+          </button>
+          <button class="buttonIcon is-white" aria-label="Reproducir" title="Reproducir">
+            <i class="icon-play" aria-hidden="true"></i>
+          </button>
+          <button class="buttonIcon " aria-label="Siguiente" title="Siguiente">
+            <i class="icon-next" aria-hidden="true"></i>
+          </button>
+        </div>
 
+        <!-- Barra de reproducccion -->
+        <div class="playerPlayback">
+          <span class="playerPlayback-progressTime">01:40</span>
+          <div class="playerPlayback-slider">
+            <div class="slider">
+              <div class="slider-progress">
+                <button class="slider-button" aria-label="Controlar progreso de la reproduccion"></button>
+              </div>
+            </div>
+          </div>
+          <span class="playerPlayback-progressTime">02:80</span>
+        </div>
+      </div>
+    </div>
 
-
-
-  <nav class="list" aria-labelledby="library-navigation">
-    <h2 class="list-title" id="library-navigation">Tu biblioteca</h2>
-    <ul class="list-content">
-      <li class="list-item">
-        <a class="link" href="#">Creada para ti</a>
-      </li>
-      <li class="list-item">
-        <a class="link" href="#">Escuchado recientemente</a>
-      </li>
-      <li class="list-item">
-        <a class="link" href="#">Tus Me Gusta</a>
-      </li>
-    </ul>
-  </nav>
-
-
-
-
-  <button class="buttonIcon is-primary" aria-label="Reproducir" title="Reproducir">
-    <i class="icon-play" aria-hidden="true"></i>
-  </button>
-  <button class="buttonIcon is-white" aria-label="Reproducir" title="Reproducir">
-    <i class="icon-play" aria-hidden="true"></i>
-  </button>
-
-
-
+    <div class="player-playerVolumen">
+      <!-- Control volumen -->
+      <div class="playerVolumen">
+        <button class="player-control" aria-label="Silenciar" aria-describedby="volumen-icon">
+          <i class="icon-volume-up" id="volumen-icon" role="presentation" aria-label="volumen alto"></i>
+        </button>
+        <div class="playerVolumen-slider">
+          <div class="slider">
+            <div class="slider-progress">
+              <button class="slider-button" aria-label="Controlar progreso de la reproduccion"></button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
 
 </body>
 

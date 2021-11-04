@@ -8,6 +8,12 @@
 @import './menu.css';
 @import './sidebar.css';
 @import './elipsis.css';
+@import './player.css';
+@import './playlist-a.css';
+@import './playlist-b.css';
+@import './playlist-list.css';
+@import './scrollbar.css';
+@import './search.css';
 
 
 :root{

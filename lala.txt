@@ -1,0 +1,132 @@
+<div class="playlistB">
+        <div class="playlistB-cover">
+          <img src="images/billyocean.jpg" width="76" height="76" alt="cover de playlist">
+        </div>
+        <div class="playlistB-details">
+          <h3 class="playlistB-title">Dia a dia</h3>
+          <div class="playlistB-control">
+            <button class="buttonIcon is-primary" aria-label="Reproducir la lista">
+              <i class="icon-play" aria-hidden="true"></i>
+            </button>
+          </div>
+        </div>
+      </div>
+      <!-- 3 -->
+      <div class="playlistB">
+        <div class="playlistB-cover">
+          <img src="images/illapu.jpg" width="76" height="76" alt="cover de playlist ">
+        </div>
+        <div class="playlistB-details">
+          <h3 class="playlistB-title">Illapu</h3>
+          <div class="playlistB-control">
+            <button class="buttonIcon is-primary" aria-label="Reproducir la lista">
+              <i class="icon-play" aria-hidden="true"></i>
+            </button>
+          </div>
+        </div>
+      </div>
+<!--  -->
+      <!-- 4 -->
+      <div class="playlistB">
+        <div class="playlistB-cover">
+          <img src="images/romeo.jpg" width="76" height="76" alt="cover de playlist ">
+        </div>
+        <div class="playlistB-details">
+          <h3 class="playlistB-title">Bachata</h3>
+          <div class="playlistB-control">
+            <button class="buttonIcon is-primary" aria-label="Reproducir la lista">
+              <i class="icon-play" aria-hidden="true"></i>
+            </button>
+          </div>
+        </div>
+      </div>
+      <!--  -->
+      <!-- 5 -->
+      <div class="playlistB">
+        <div class="playlistB-cover">
+          <img src="images/keyel.jpg" width="76" height="76" alt="cover de playlist ">
+        </div>
+        <div class="playlistB-details">
+          <h3 class="playlistB-title">Keyel</h3>
+          <div class="playlistB-control">
+            <button class="buttonIcon is-primary" aria-label="Reproducir la lista">
+              <i class="icon-play" aria-hidden="true"></i>
+            </button>
+          </div>
+        </div>
+      </div>
+      <!--  -->
+      <!-- 6 -->
+      <div class="playlistB">
+        <div class="playlistB-cover">
+          <img src="images/12_Talento_De_Barrio.jpg" width="76" height="76" alt="cover de playlist la bamba">
+        </div>
+        <div class="playlistB-details">
+          <h3 class="playlistB-title">Talento de Barrio</h3>
+          <div class="playlistB-control">
+            <button class="buttonIcon is-primary" aria-label="Reproducir la lista">
+              <i class="icon-play" aria-hidden="true"></i>
+            </button>
+          </div>
+        </div>
+      </div>
+      <!--  -->
+      <!-- 7 -->
+      <div class="playlistB">
+        <div class="playlistB-cover">
+          <img src="images/12_Talento_De_Barrio.jpg" width="76" height="76" alt="cover de playlist la bamba">
+        </div>
+        <div class="playlistB-details">
+          <h3 class="playlistB-title">Talento de Barrio</h3>
+          <div class="playlistB-control">
+            <button class="buttonIcon is-primary" aria-label="Reproducir la lista">
+              <i class="icon-play" aria-hidden="true"></i>
+            </button>
+          </div>
+        </div>
+      </div>
+      <!--  -->
+      <!-- 8-->
+      <div class="playlistB">
+        <div class="playlistB-cover">
+          <img src="images/12_Talento_De_Barrio.jpg" width="76" height="76" alt="cover de playlist la bamba">
+        </div>
+        <div class="playlistB-details">
+          <h3 class="playlistB-title">Talento de Barrio</h3>
+          <div class="playlistB-control">
+            <button class="buttonIcon is-primary" aria-label="Reproducir la lista">
+              <i class="icon-play" aria-hidden="true"></i>
+            </button>
+          </div>
+        </div>
+      </div>
+      <!--  -->
+      <!-- 9 -->
+      <div class="playlistB">
+        <div class="playlistB-cover">
+          <img src="images/12_Talento_De_Barrio.jpg" width="76" height="76" alt="cover de playlist la bamba">
+        </div>
+        <div class="playlistB-details">
+          <h3 class="playlistB-title">Talento de Barrio</h3>
+          <div class="playlistB-control">
+            <button class="buttonIcon is-primary" aria-label="Reproducir la lista">
+              <i class="icon-play" aria-hidden="true"></i>
+            </button>
+          </div>
+        </div>
+      </div>
+      <!--  -->
+      <!-- 10 -->
+      <div class="playlistB">
+        <div class="playlistB-cover">
+          <img src="images/12_Talento_De_Barrio.jpg" width="76" height="76" alt="cover de playlist la bamba">
+        </div>
+        <div class="playlistB-details">
+          <h3 class="playlistB-title">Talento de Barrio</h3>
+          <div class="playlistB-control">
+            <button class="buttonIcon is-primary" aria-label="Reproducir la lista">
+              <i class="icon-play" aria-hidden="true"></i>
+            </button>
+          </div>
+        </div>
+      </div>

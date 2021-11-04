@@ -2,7 +2,7 @@
   overflow: hidden;
 }
 .elipsis > *{
-  border: 1px solid red;
+  /* border: 1px solid red; */
   display: block;
   white-space: nowrap;
   overflow: hidden;
