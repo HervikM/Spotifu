@@ -9,14 +9,14 @@
 @import './sidebar.css';
 @import './elipsis.css';
 @import './player.css';
-@import './playlist-a.css';
-@import './playlist-b.css';
-@import './playlist-list.css';
-@import './scrollbar.css';
-@import './search.css';
+@import './page.css';
+@import './layout.css';
+
 
 
 :root{
+  font-size: 16px;
+
   /* Colores */
   --primaryColor: #00B050;
   --white:#fff;
@@ -38,4 +38,15 @@
   --button:bold .875rem/1rem var(--basefontFamily);
   --small:normal .75em/normal var(--basefontFamily);
 
+}
+
+@media screen and (min-width:768px) {
+  :root{
+    font-size: 16px;
+  }
+}
+@media screen and (min-width:1367px) {
+  :root{
+    font-size: 18px;
+  }
 }

@@ -1,0 +1,50 @@
+.playlistC{
+  /* border: 1px solid blue; */
+  inline-size: 37em;
+  block-size: 13em;
+  /* margin-inline-end: .5rem; */
+  padding: 0;
+  border-radius:.25rem ;
+  box-sizing: border-box;
+  transition: .3s background;
+
+}
+
+.playlistC-title {
+  padding-inline-start: 20px;
+  /* border: 1px solid green; */
+}
+.playlistC-cover img{
+  /* border: 1px solid green; */
+  vertical-align: middle;
+  /* inline-size: 100%; */
+  /* block-size: auto; */
+  flex: 1;
+  transform: rotate(24deg);
+  position: absolute;
+  right: -25px;
+  bottom: -10px;
+}
+.playlistC-cover h2{
+  font: var(--baseFontBold);
+  color: var(--white);
+  font-size: 2rem;
+}
+
+.playlistC-cover{
+  block-size: 100%;
+  /* border: 1px solid blue; */
+  position: relative;
+  border-radius: .75rem;
+  overflow: hidden;
+  margin-block-end: 1rem;
+  display: flex;
+}
+
+.playlistC:hover, .playlistC:focus-within{
+  cursor: pointer;
+}
+.playlistC:focus-within .playlistC-cover button{
+
+  transform: translateY(0);
+}

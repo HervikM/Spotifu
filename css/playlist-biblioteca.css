@@ -1,0 +1,120 @@
+
+.playlistBiblioteca, .playlistBiblioteca-1{
+  inline-size: 13em;
+  padding: 1rem;
+  border-radius:.25rem ;
+  background: var(--gray40);
+  box-sizing: border-box;
+  transition: .3s background;
+}
+
+.playlistBiblioteca-1{
+  background: rgb(84,37,242);
+  background: linear-gradient(180deg, rgba(84,37,242,1) 0%, rgba(106,77,237,1) 37%, rgba(132,123,232,1) 100%);
+  inline-size: 27.875em;
+  padding: 1rem;
+  /* border-radius:0 ; */
+  block-size: auto;
+  padding: 0;
+  display: flex;
+  align-items: center;
+
+}
+
+.playlistBiblioteca-cover,  .playlistBiblioteca-cover1{
+  /* border: 1px solid red; */
+  position: relative;
+  border-radius: .75rem;
+  overflow: hidden;
+  margin-block-end: 1rem;
+}
+
+.playlistBiblioteca-cover1{
+  display: block;
+  inline-size: 100%;
+  padding-inline-start: 1rem;
+  padding-inline-end:1rem ;
+  /* block-size: 100%; */
+  /* background: purple; */
+  /* border: 1px solid red; */
+  border-radius:0;
+
+}
+.playlistBiblioteca-songs{
+  margin-block-start: 5em;
+  /* border: 1px solid red; */
+  font: var(--baseFont);
+  color: var(--white);
+  line-height: 1.5rem;
+  font-size: 1rem;
+}
+.playlistBiblioteca-songs  span{
+  /* color: #000; */
+  opacity: .5;
+}
+
+
+.playlistBiblioteca-cover img{
+  vertical-align: middle;
+  inline-size: 100%;
+  block-size: auto;
+}
+
+.playlistBiblioteca:hover,
+ .playlistBiblioteca:focus-within {
+  cursor: pointer;
+  background: var(--gray30);
+}
+ .playlistBiblioteca-1:hover,
+ .playlistBiblioteca-1:focus-within{
+  cursor: pointer;
+ }
+
+.playlistBiblioteca:hover .playlistBiblioteca-cover button,
+.playlistBiblioteca:focus-within .playlistBiblioteca-cover button
+  .playlistBiblioteca-1:hover .playlistBiblioteca-cover1 button,
+  .playlistBiblioteca-1:focus-within .playlistBiblioteca-cover1 button{
+  opacity:1;
+  transform: translateY(0);
+}
+
+.playlistBiblioteca button, .playlistBiblioteca-1 button{
+  position: absolute;
+  right: .5rem;
+  bottom: .5rem;
+  opacity: 0;
+  transform: translateY(.5rem);
+  will-change: opacity, transform;
+  transition: 300ms opacity, .3s transform;
+}
+
+.playlistBiblioteca-title{
+  font:var(--baseFontBold);
+  color: var(--white);
+  margin: 0;
+}
+.playlistBiblioteca-description{
+  font: var(--baseFont);
+  margin: 0;
+}
+
+
+.playlistBiblioteca-details{
+  /* border: 1px solid red; */
+  color: var(--white);
+}
+.playlistBiblioteca-details h3{
+  /* border: 1px solid red; */
+  font: var(--baseFontBold);
+  font-size: 1.4rem;
+  margin: 0;
+
+}
+
+.playlistBiblioteca-details p {
+  /* border: 1px solid green; */
+  font: var(--baseFont);
+  font-size: 1rem;
+  margin: 0;
+  margin-block-start: .5rem;
+}
